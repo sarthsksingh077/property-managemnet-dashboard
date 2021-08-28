@@ -1,4 +1,4 @@
-const next_button = document.querySelector('.next-btn');
+const dashboard_button = document.querySelector('.next-btn');
 const back_button = document.querySelector('.back-btn');
 const add_button = document.querySelector('.add-btn');
 const landing_page_box = document.querySelector('.wrapper');
@@ -6,7 +6,7 @@ const dashboard_page_box = document.querySelector('.container');
 let data = [];
 
 
-next_button.onclick = () => {
+dashboard_button.onclick = () => {
     landing_page_box.classList.add('display_change');
     dashboard_page_box.classList.add('appear');
 }
